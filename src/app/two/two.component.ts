@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from "rxjs";
+
 import {
   Store,
   Select
 } from "@ngxs/store";
 import { TodoState, AddTodo, RemoveTodo } from "../app.state";
-import { Observable } from "rxjs";
 
 @Component({
   selector: 'app-two',
