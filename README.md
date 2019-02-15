@@ -4,7 +4,7 @@
 # 主要步骤
 1：安装：npm i @ngxs/store --save
 <br>
-2：在模块内 import { NgxsModule } from "@ngxs/store"; 添加TodoState到imports 
+2：在模块内 import { NgxsModule } from "@ngxs/store"; 添加 NgxsModule 到imports 
 <br>
 3：编写状态管理逻辑，看 app.state.ts 文件
 <br>
